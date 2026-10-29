@@ -17,4 +17,4 @@ jobs:
           python-version: "3.x"
 
       - name: Run automated tests
-        run: python -m unittest -v
+       run: python -m unittest discover -s CI_Experiment_Complete/CI_Experiment -v
